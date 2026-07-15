@@ -193,7 +193,9 @@ nav.scrolled {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.8);
-  transition: color 0.3s, opacity 0.3s;
+  transition:
+    color 0.3s,
+    opacity 0.3s;
   position: relative;
   padding-bottom: 4px;
 }
@@ -222,7 +224,12 @@ nav.scrolled {
 .nav-cta {
   display: inline-block;
   padding: 0.65rem 1.7rem;
-  background: linear-gradient(135deg, #d6b77d 0%, var(--gold) 55%, #b99358 100%);
+  background: linear-gradient(
+    135deg,
+    #d6b77d 0%,
+    var(--gold) 55%,
+    #b99358 100%
+  );
   color: var(--navy-deep) !important;
   font-size: 0.78rem !important;
   font-weight: 600 !important;
@@ -241,7 +248,12 @@ nav.scrolled {
   display: none !important;
 }
 .nav-cta:hover {
-  background: linear-gradient(135deg, #e8d5a3 0%, var(--gold) 70%, #c3a06b 100%) !important;
+  background: linear-gradient(
+    135deg,
+    #e8d5a3 0%,
+    var(--gold) 70%,
+    #c3a06b 100%
+  ) !important;
   transform: translateY(-2px);
   box-shadow: 0 12px 28px rgba(201, 169, 110, 0.4);
 }
@@ -359,8 +371,7 @@ nav.scrolled {
       rgba(0, 64, 120, 0.52) 55%,
       rgba(0, 34, 70, 0.74) 100%
     ),
-    url("../assets/sunset.jpg")
-      center 65% / cover no-repeat;
+    url("../assets/sunset.jpg") center 65% / cover no-repeat;
 }
 /* Grain texture overlay */
 .hero-bg::before {
@@ -589,7 +600,12 @@ section {
 }
 
 .btn-gold {
-  background: linear-gradient(135deg, #d6b77d 0%, var(--gold) 55%, #b99358 100%);
+  background: linear-gradient(
+    135deg,
+    #d6b77d 0%,
+    var(--gold) 55%,
+    #b99358 100%
+  );
   color: var(--navy-deep);
   border: 1px solid rgba(255, 255, 255, 0.28);
   box-shadow: 0 10px 24px rgba(201, 169, 110, 0.28);
@@ -1496,6 +1512,7 @@ footer {
   }
   .about-badge {
     right: 0;
+    padding: 1rem 1.4rem;
   }
   .testi-grid {
     grid-template-columns: 1fr;
@@ -1523,7 +1540,6 @@ footer {
   .mobile-menu a {
     font-size: 1rem;
     font-weight: 400;
-
   }
   .hamburger {
     display: flex;
@@ -1557,7 +1573,6 @@ footer {
     width: 100%;
     max-width: 320px;
     justify-content: center;
-    
   }
   .footer-grid {
     grid-template-columns: 1fr;
@@ -1611,6 +1626,20 @@ footer {
   .g-item:first-child {
     grid-row: auto;
     grid-column: auto;
+  }
+
+  .about-badge {
+    bottom: 10px;
+    padding: 0.6rem 0.9rem;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+  }
+  .about-badge-num,
+  .about-badge span:first-child {
+    font-size: 1.5rem;
+  }
+  .about-badge-label {
+    font-size: 0.5rem;
+    letter-spacing: 0.16em;
   }
 }
 
@@ -1718,7 +1747,11 @@ footer {
    CALL BUTTON — added (README calls for WA/Viber/IG/Call)
 ═══════════════════════════════════════════ */
 .book-btn.call {
-  background: linear-gradient(135deg, var(--navy-light) 0%, var(--navy-mid) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--navy-light) 0%,
+    var(--navy-mid) 100%
+  );
 }
 
 /* ═══════════════════════════════════════════
@@ -1807,7 +1840,10 @@ footer {
   border-radius: 999px;
   padding: 0.42rem 0.95rem;
   cursor: pointer;
-  transition: background 0.3s, color 0.3s, border-color 0.3s;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border-color 0.3s;
 }
 .lang-toggle:hover {
   background: var(--gold);
