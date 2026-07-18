@@ -94,7 +94,7 @@ const I18N = {
     'nav.book': 'Book Now',
     'hero.eyebrow': 'Paxos & Antipaxos, Ionian Sea',
     'hero.title': 'Experience the<br>Magic of Paxos<br><em>with Nautilos.</em>',
-    'hero.sub': 'Tours to the Blue Caves, full-island cruises around Paxos and Antipaxos, and transfers across the Ionian — where crystal waters meet timeless elegance.',
+    'hero.sub': 'Tours to the Blue Caves, full-island cruises around Paxos and Antipaxos, and transfers across the Ionian - where crystal waters meet timeless elegance.',
     'hero.cta1': 'Reserve Your Day',
     'hero.cta2': 'Discover More',
     'hero.scroll': 'Scroll',
